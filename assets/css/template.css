@@ -8,3 +8,15 @@ body{
     font-size: 17px; 
     background-color: black;
 }
+header{  
+    display: flex;  
+    justify-content:  center; 
+    height: 120px; 
+    color: orange;
+}
+.container{  
+    display: flex;  
+    justify-content: space-between;  
+    width: 990px; 
+    /* height: 100px; */
+}
