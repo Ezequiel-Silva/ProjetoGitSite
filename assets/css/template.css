@@ -20,3 +20,40 @@ header{
     width: 990px; 
     /* height: 100px; */
 }
+.home{ 
+    display: flex; 
+    align-items: center; 
+}
+.home a{
+    color: #727272;  
+    margin: 7px;
+    text-decoration: none;
+}
+.home a:hover{
+    color: #DDD;
+}
+.menu{  
+    display: flex; 
+    align-items: center; 
+}
+nav ul, nav li{  
+    list-style: none; /* tira o ponto da lista */  
+    margin: 0;  
+    padding: 0; 
+}
+nav ul{ 
+    display: flex; 
+}
+nav a{
+    color: #727272;
+    display: block;
+    padding: 15px;
+    margin: 1px;
+    border-radius: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+nav a:hover{  
+    background-color: #CC0000;  
+    color: white; 
+}
